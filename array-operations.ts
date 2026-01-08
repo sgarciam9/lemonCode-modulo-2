@@ -1,11 +1,11 @@
+//Devuelve el primer elemento de un array
 const head = <T>([first]: T[]): T | undefined => first;
-
+//Devuelve todos menos el primero   
 const tail = <T>([, ...rest]: T[]): T[] => rest;
-
+//Devuelve todos menos el último
 const init = <T>(array: T[]): T[] => array.slice(0, -1);
-
-const last = <T>(array: T[]): T | undefined =>
-  array[array.length - 1];
+//Devuelve el último elemento de un array
+const last = <T>(array: T[]): T | undefined => array[array.length - 1];
 
 // PRUEBAS
 const array = [1, 2, 3, 4];
