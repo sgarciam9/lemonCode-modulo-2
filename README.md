@@ -1,25 +1,32 @@
-# Módulo 2 – Lenguajes (JavaScript / TypeScript)
+# LEMONCODE – MÓDULO 2 (JavaScript / TypeScript)
 
-## Ejercicio 1 – Array operations
+Este repositorio contiene los ejercicios del **Módulo 2 – Lenguajes**, implementados en **TypeScript** y compilados a **JavaScript** para su ejecución.
 
-Este ejercicio está implementado en TypeScript, siguiendo principios de:
-- Inmutabilidad
-- Uso de genéricos
-- Sintaxis moderna (ES6+)
-
-El archivo principal es:
-array-operations.ts
-
+Cada ejercicio se encuentra en su propia carpeta y puede ejecutarse de forma independiente.
 
 ---
 
-## Cómo probar el ejercicio
+
+En cada carpeta:
+- El archivo `.ts` contiene la implementación en TypeScript
+- El archivo `.js` es el resultado de la compilación
+- Los resultados se muestran por consola
+
+---
+
+## ▶️ Cómo probar los ejercicios
 
 ### Requisitos
 - Node.js instalado
 - TypeScript instalado globalmente o usando `npx`
 
-### Compilar y ejecutar con Node.js
+---
+
+### Pasos generales
+
+1. Acceder a la carpeta del ejercicio que se quiera probar:
 ```bash
-tsc array-operations.ts
-node array-operations.js
+cd EjercicioX
+tsc
+node nombre-del-archivo.js
+
