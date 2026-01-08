@@ -20,5 +20,6 @@ array-operations.ts
 - TypeScript instalado globalmente o usando `npx`
 
 ### Compilar y ejecutar con Node.js
+```bash
 tsc array-operations.ts
 node array-operations.js
